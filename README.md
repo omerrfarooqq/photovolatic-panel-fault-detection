@@ -316,3 +316,25 @@ The dataset has extreme class imbalance (42:1). Addressed through:
 | `runs/pv_fault_det/test_accuracy.txt` | Simple test accuracy metric | `check_accuracy.py` |
 
 ---
+
+## Artifacts & Outputs (Visual Gallery)
+
+### EDA Visualizations
+
+| Class Distribution | BBox Analysis | Center Heatmap |
+|:-----------------:|:------------:|:--------------:|
+| ![Class Distribution](eda_outputs/class_distribution.png) | ![BBox Analysis](eda_outputs/bbox_analysis.png) | ![Center Heatmap](eda_outputs/bbox_centre_heatmap.png) |
+
+| Co-occurrence Matrix | Boxes Per Image | Image Sizes | Sample Grid |
+|:-------------------:|:--------------:|:-----------:|:-----------:|
+| ![Co-occurrence](eda_outputs/cooccurrence_matrix.png) | ![Boxes Per Image](eda_outputs/boxes_per_image.png) | ![Image Sizes](eda_outputs/image_sizes.png) | ![Sample Grid](eda_outputs/sample_grid.png) |
+
+### Evaluation Visualizations
+
+| Per-Class Performance | PR/F1 Analysis | Confusion Matrix |
+|:--------------------:|:--------------:|:---------------:|
+| ![Per-Class Performance](eval_outputs/per_class_performance_test.png) | ![PR/F1 Analysis](eval_outputs/pr_f1_analysis_test.png) | ![Confusion Matrix](eval_outputs/eval_test/confusion_matrix.png) |
+
+| Confusion Matrix (Normalized) | Example Prediction | Example Label |
+|:-----------------------------:|:-----------------:|:-------------:|
+| ![Confusion Matrix Normalized](eval_outputs/eval_test/confusion_matrix_normalized.png) | ![Prediction](eval_outputs/eval_test/val_batch0_pred.jpg) | ![Label](eval_outputs/eval_test/val_batch0_labels.jpg) |
