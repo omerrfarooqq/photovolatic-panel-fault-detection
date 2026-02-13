@@ -1,0 +1,111 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IPython
+.ipython/profile_default/history.sqlite
+.ipython/profile_default/db.sqlite
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Large data and model files
+*.pt
+*.pth
+*.onnx
+weights/
+checkpoints/
+
+# YOLOv8 runs and outputs
+runs/
+results/
+*.csv
+
+# Datasets
+data/
+datasets/
+images/
+labels/
+split_upload*/
+
+# Cache files
+*.cache
+*.tmp
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# Downloaded models
+yolov8*.pt
+
+# ML artifacts that shouldn't be committed
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/

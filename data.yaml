@@ -1,0 +1,32 @@
+# ============================================================================
+# PV Solar Panel Fault Detection - YOLO Dataset Configuration
+# ============================================================================
+# This file configures the dataset paths and class names for YOLOv8 training.
+# Update class names below if you know the exact fault type mapping.
+# ============================================================================
+
+path: C:/Users/omerf/Downloads/split_upload_2/split_upload_2
+train: images/train
+val: images/val
+test: images/test
+
+# Number of classes
+nc: 14
+
+# Class names - Update these if you know the exact fault type labels
+# Common PV fault types from IR/EL thermography datasets:
+names:
+  0: Cell
+  1: Cell-Multi
+  2: Cracking
+  3: Diode
+  4: Diode-Multi
+  5: Hot-Spot
+  6: Hot-Spot-Multi
+  7: No-Anomaly
+  8: Offline-Module
+  9: Shadowing
+  10: Soiling
+  11: Vegetation
+  12: Bird-Drop
+  13: Physical-Damage
