@@ -7,12 +7,7 @@
 
 This project implements an **end-to-end PV (photovoltaic) solar panel fault detection** pipeline using YOLOv8 object detection. It handles a **severely imbalanced dataset** (42:1 ratio between most and least common classes) with 14 fault categories.
 
-### Dataset Statistics
-| Split | Images | Annotations | Empty (No-fault) |
-|-------|--------|-------------|-------------------|
-| Train | 2,308  | 2,308       | 262               |
-| Val   | 283    | 283         | -                 |
-| Test  | 303    | 303         | -                 |
+
 
 ### Class Distribution (Training Set)
 | Class | Fault Type       | Instances | Imbalance Ratio |
